@@ -7,8 +7,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 const controls = new THREE.OrbitControls(camera, renderer.domElement);
-controls.target.set(0, 1, 0);
-controls.update();
+controls.maxPolarAngle = Math.PI/2;
 
 const materials = {
     white: new THREE.MeshPhongMaterial({color: 0xaaaaaaa})
@@ -79,6 +78,7 @@ function updateElements() {
 
 function animate() {
 	requestAnimationFrame(animate);
+    controls.target.set(0, 1, 0);
     controls.update();
 
     updateElements();
