@@ -15,7 +15,11 @@ const materials = {
 
 scene.background = new THREE.Color(0x777777);
 
+const objects = {};
+
 // =========================================================================
+
+// ROOM
 
 const room = {
     x: 10,
@@ -51,6 +55,25 @@ const wallBack = new THREE.Mesh(new THREE.BoxGeometry(room.x, room.y, 0), materi
 wallBack.position.set(0, room.y/2, -room.z/2);
 wallBack.geometry.computeVertexNormals();
 scene.add(wallBack);
+
+// OFFICE
+
+const officeTop = new THREE.Mesh(new THREE.BoxGeometry(2, 0.025, 0.75), materials.white);
+officeTop.position.set(0, 0.75, -0.15);
+officeTop.geometry.computeVertexNormals();
+scene.add(officeTop);
+
+const officeRight = new THREE.Mesh(new THREE.BoxGeometry(0.1, 0.75, 0.7), materials.white);
+officeRight.position.set(0.9, 0.37, -0.15);
+officeRight.geometry.computeVertexNormals();
+scene.add(officeRight);
+
+const officeLeft = new THREE.Mesh(new THREE.BoxGeometry(0.1, 0.75, 0.7), materials.white);
+officeLeft.position.set(-0.9, 0.37, -0.15);
+officeLeft.geometry.computeVertexNormals();
+scene.add(officeLeft);
+
+// LIGHTS
 
 const ambienceLight = new THREE.AmbientLight(0xffffff, 0.25, 0);
 scene.add(ambienceLight);
