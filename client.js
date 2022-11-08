@@ -15,7 +15,7 @@ const materials = {
 
 scene.background = new THREE.Color(0x777777);
 
-const objects = {};
+const loader = new THREE.GLTFLoader();
 
 // =========================================================================
 
@@ -72,6 +72,22 @@ const officeLeft = new THREE.Mesh(new THREE.BoxGeometry(0.1, 0.75, 0.7), materia
 officeLeft.position.set(-0.9, 0.37, -0.15);
 officeLeft.geometry.computeVertexNormals();
 scene.add(officeLeft);
+
+let screen = undefined;
+loader.load("models/screen/scene.gltf", (gltf) => {
+    screen = gltf.scene;
+    screen.position.set(0, 1.02, -0.59);
+    screen.scale.set(0.001, 0.001, 0.001);
+    scene.add(screen);
+});
+
+let keyboard = undefined;
+loader.load("models/keyboard/scene.gltf", (gltf) => {
+    keyboard = gltf.scene;
+    keyboard.position.set(-0.075, 0.775, 0.05);
+    keyboard.scale.set(0.025, 0.025, 0.025);
+    scene.add(keyboard);
+});
 
 // LIGHTS
 

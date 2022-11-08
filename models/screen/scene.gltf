@@ -1,0 +1,787 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4956,
+      "max": [
+        41.20094299316406,
+        24.951122283935547,
+        29.472110748291016
+      ],
+      "min": [
+        -41.2014045715332,
+        -12.646137237548828,
+        -15.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 59472,
+      "componentType": 5126,
+      "count": 4956,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9993411898612976,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4956,
+      "max": [
+        42.72949981689453,
+        97.23640441894531
+      ],
+      "min": [
+        -40.95206069946289,
+        -229.3134765625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 21390,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 118944,
+      "componentType": 5126,
+      "count": 322,
+      "max": [
+        3.5930800437927246,
+        22.790775299072266,
+        29.46080780029297
+      ],
+      "min": [
+        -3.5931715965270996,
+        14.949871063232422,
+        -12.270071029663086
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 122808,
+      "componentType": 5126,
+      "count": 322,
+      "max": [
+        0.7362303137779236,
+        0.0,
+        0.9239646196365356
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.04586612805724144
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 39648,
+      "componentType": 5126,
+      "count": 322,
+      "max": [
+        7.966957092285156,
+        38.91585159301758
+      ],
+      "min": [
+        -14.386421203613281,
+        -8.75
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 85560,
+      "componentType": 5125,
+      "count": 1380,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 126672,
+      "componentType": 5126,
+      "count": 2063,
+      "max": [
+        1.0,
+        16.0,
+        21.0
+      ],
+      "min": [
+        -1.0,
+        9.873076438903809,
+        13.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 151428,
+      "componentType": 5126,
+      "count": 2063,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 42224,
+      "componentType": 5126,
+      "count": 2063,
+      "max": [
+        4.564373016357422,
+        5.415168285369873
+      ],
+      "min": [
+        -4.56605863571167,
+        -5.8296122550964355
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 91080,
+      "componentType": 5125,
+      "count": 9174,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 176184,
+      "componentType": 5126,
+      "count": 4249,
+      "max": [
+        60.19049072265625,
+        11.873076438903809,
+        36.8882942199707
+      ],
+      "min": [
+        -60.19049072265625,
+        -9.301167488098145,
+        0.11170463263988495
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 227172,
+      "componentType": 5126,
+      "count": 4249,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.800000011920929,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 58728,
+      "componentType": 5126,
+      "count": 4249,
+      "max": [
+        39.05953598022461,
+        61.91874313354492
+      ],
+      "min": [
+        -39.05953598022461,
+        -15.532546997070313
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 127776,
+      "componentType": 5125,
+      "count": 16332,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 278160,
+      "componentType": 5126,
+      "count": 27781,
+      "max": [
+        59.5,
+        11.873076438903809,
+        36.5
+      ],
+      "min": [
+        -59.5,
+        -9.906525611877441,
+        1.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 611532,
+      "componentType": 5126,
+      "count": 27781,
+      "max": [
+        1.0,
+        0.9364190101623535,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 92720,
+      "componentType": 5126,
+      "count": 27781,
+      "max": [
+        50.0,
+        66.65349578857422
+      ],
+      "min": [
+        -100.0,
+        -61.216670989990234
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 193104,
+      "componentType": 5125,
+      "count": 76632,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 944904,
+      "componentType": 5126,
+      "count": 636,
+      "max": [
+        60.28215408325195,
+        1.1001102924346924,
+        37.0
+      ],
+      "min": [
+        -60.28215408325195,
+        -10.244431495666504,
+        -2.1526095521969685e-14
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 952536,
+      "componentType": 5126,
+      "count": 636,
+      "max": [
+        1.0,
+        0.6667850613594055,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 314968,
+      "componentType": 5126,
+      "count": 636,
+      "max": [
+        59.809513092041016,
+        1200.1605224609375
+      ],
+      "min": [
+        -59.809513092041016,
+        -61.61183166503906
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 499632,
+      "componentType": 5125,
+      "count": 2010,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "autofly (https://sketchfab.com/autofly)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/super-ultra-wide-329-monitor-display-samsung-ab5892c357da4e538a020a2fdcff0f7b",
+      "title": "Super Ultra Wide 32:9 Monitor Display Samsung"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 507672,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 320056,
+      "byteOffset": 507672,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 960168,
+      "byteOffset": 827728,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1787896,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Stand__0",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Plastic_-_Matte_Black",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0980392,
+          0.0980392,
+          0.0980392,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9577051494623774
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Aluminum_-_Brushed_Linear",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.960784,
+          0.960784,
+          0.964706,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9577051494623774
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Stand__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Stand_Plastic - Matte (Black)_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Body2_Plastic - Matte (Black)_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Display_Plastic - Matte (Black)_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Display__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Display_Aluminum - Brushed Linear_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -2.220446049250313e-16,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        -262.83248901367193,
+        263.4170532226562,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "8e4a4f6718bd4eb3a87665d1be2dfc01.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        9,
+        13
+      ],
+      "name": "Super Ultra Wide v22"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -4.973799150320701e-13,
+        -61.2462272644043,
+        155.0,
+        1.0
+      ],
+      "name": "Stand:1"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Stand"
+    },
+    {
+      "children": [
+        7,
+        8
+      ],
+      "matrix": [
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Stand"
+    },
+    {
+      "mesh": 0,
+      "name": "Stand__0"
+    },
+    {
+      "mesh": 1,
+      "name": "Stand_Plastic - Matte (Black)_0"
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        1.0,
+        -1.1017229595264231e-33,
+        0.0,
+        0.0,
+        1.1017229595264231e-33,
+        1.0,
+        9.939003741543485e-182,
+        0.0,
+        -1.095002861687748e-214,
+        -9.939003741543485e-182,
+        1.0,
+        0.0,
+        -4.973799150320701e-13,
+        -61.2462272644043,
+        156.24853515625,
+        1.0
+      ],
+      "name": "Stand heightadjust:1"
+    },
+    {
+      "children": [
+        11
+      ],
+      "name": "Stand heightadjust"
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        10.0,
+        0.0,
+        1.6489340850168665e-229,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        -1.6489340850168665e-229,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Body2"
+    },
+    {
+      "mesh": 2,
+      "name": "Body2_Plastic - Matte (Black)_0"
+    },
+    {
+      "children": [
+        14
+      ],
+      "matrix": [
+        0.9993739647771677,
+        0.03537906903190822,
+        5.899070977717288e-17,
+        0.0,
+        -0.03537906903190822,
+        0.9993739647771677,
+        -2.0883437702053945e-18,
+        0.0,
+        -5.902766317344095e-17,
+        5.7777898331617076e-34,
+        1.0,
+        0.0,
+        3.8467931747436523,
+        -61.178157806396484,
+        156.24853515625,
+        1.0
+      ],
+      "name": "Display:1"
+    },
+    {
+      "children": [
+        15
+      ],
+      "matrix": [
+        1.0,
+        6.93889390390723e-18,
+        0.0,
+        0.0,
+        -6.93889390390723e-18,
+        1.0,
+        -3.8518598887744726e-34,
+        0.0,
+        -2.672764710092197e-51,
+        3.8518598887744726e-34,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Display"
+    },
+    {
+      "children": [
+        16,
+        17,
+        18
+      ],
+      "matrix": [
+        10.0,
+        -1.2319288126315345e-33,
+        0.0,
+        0.0,
+        1.2319288126315345e-33,
+        10.0,
+        -6.162975822039156e-33,
+        0.0,
+        7.592347486721553e-67,
+        6.162975822039156e-33,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Display"
+    },
+    {
+      "mesh": 3,
+      "name": "Display_Plastic - Matte (Black)_0"
+    },
+    {
+      "mesh": 4,
+      "name": "Display__0"
+    },
+    {
+      "mesh": 5,
+      "name": "Display_Aluminum - Brushed Linear_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

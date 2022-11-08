@@ -1,0 +1,11 @@
+Model Information:
+* title:	Logitech G813
+* source:	https://sketchfab.com/3d-models/logitech-g813-6168db0d5c1842fea093b19c99bdf515
+* author:	kirigami318 (https://sketchfab.com/kirigami318)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Logitech G813" (https://sketchfab.com/3d-models/logitech-g813-6168db0d5c1842fea093b19c99bdf515) by kirigami318 (https://sketchfab.com/kirigami318) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
