@@ -9,8 +9,10 @@ document.body.appendChild(renderer.domElement);
 const controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.maxPolarAngle = Math.PI/2;
 
+const textureLoader = new THREE.TextureLoader();
 const materials = {
-    white: new THREE.MeshPhongMaterial({color: 0xaaaaaaa})
+    white: new THREE.MeshPhongMaterial({color: 0xaaaaaaa}),
+    wood: new THREE.MeshPhongMaterial({map: textureLoader.load("/textures/wooden-floor.png")})
 }
 
 scene.background = new THREE.Color(0x777777);
@@ -27,7 +29,7 @@ const room = {
     z: 6
 }
 
-const floor = new THREE.Mesh(new THREE.BoxGeometry(room.x, 0, room.z), materials.white);
+const floor = new THREE.Mesh(new THREE.BoxGeometry(room.x, 0, room.z), materials.wood);
 floor.geometry.computeVertexNormals();
 scene.add(floor);
 
