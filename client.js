@@ -4,7 +4,7 @@ camera.position.set(15, 2, 0);
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
+document.getElementById("3d").appendChild(renderer.domElement);
 
 const controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.maxPolarAngle = Math.PI/2;
@@ -12,12 +12,14 @@ controls.maxPolarAngle = Math.PI/2;
 const textureLoader = new THREE.TextureLoader();
 const materials = {
     white: new THREE.MeshPhongMaterial({color: 0xaaaaaaa}),
-    wood: new THREE.MeshPhongMaterial({map: textureLoader.load("/textures/wooden-floor.png")})
+    wood: new THREE.MeshPhongMaterial({map: textureLoader.load("/textures/wooden-floor.png", () => removeElementFromList(loading, "texture-wooden-floor"))})
 }
 
 scene.background = new THREE.Color(0x777777);
 
 const loader = new THREE.GLTFLoader();
+
+let loading = ["texture-wooden-floor", "model-screen", "model-keyboard"];
 
 // =========================================================================
 
@@ -81,6 +83,7 @@ loader.load("models/screen/scene.gltf", (gltf) => {
     screen.position.set(0, 1.02, -0.59);
     screen.scale.set(0.001, 0.001, 0.001);
     scene.add(screen);
+    removeElementFromList(loading, "model-screen");
 });
 
 let keyboard = undefined;
@@ -89,6 +92,7 @@ loader.load("models/keyboard/scene.gltf", (gltf) => {
     keyboard.position.set(-0.075, 0.775, 0.05);
     keyboard.scale.set(0.025, 0.025, 0.025);
     scene.add(keyboard);
+    removeElementFromList(loading, "model-keyboard");
 });
 
 // LIGHTS
@@ -127,3 +131,23 @@ function animate() {
 	renderer.render( scene, camera );
 }
 animate();
+
+function removeElementFromList(list, ele) {
+    for (i = 0; i < list.length; i++) {
+        if (list[i] == ele) {
+            list.splice(i, 1);
+            updateLoadingScreen();
+            return;
+        }
+    }
+}
+
+function updateLoadingScreen() {
+    if (loading.length == 0) {
+        document.getElementById("loadingScreen").style.transition = "ease-in-out 1s";
+        document.getElementById("loadingScreen").style.opacity = 0;
+        setTimeout(() => {
+            document.getElementById("loadingScreen").remove();
+        }, 1000);
+    }
+}
