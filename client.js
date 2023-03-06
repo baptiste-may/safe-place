@@ -12,7 +12,7 @@ controls.maxPolarAngle = Math.PI/2;
 const textureLoader = new THREE.TextureLoader();
 const materials = {
     white: new THREE.MeshPhongMaterial({color: 0xaaaaaaa}),
-    wood: new THREE.MeshPhongMaterial({map: textureLoader.load("/textures/wooden-floor.png", () => removeElementFromList(loading, "texture-wooden-floor"))})
+    wood: new THREE.MeshPhongMaterial({map: textureLoader.load("/safe-place/textures/wooden-floor.png", () => removeElementFromList(loading, "texture-wooden-floor"))})
 }
 
 scene.background = new THREE.Color(0x777777);
