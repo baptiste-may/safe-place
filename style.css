@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap");
+* {
+    font-family: "Sono", sans-serif;
+}
 body {
     margin: 0;
 }
@@ -18,5 +21,17 @@ body {
 #loadingScreen h1 {
     color: #DDD;
     font-size: 4em;
-    font-family: "Sono", sans-serif;
+}
+#skip-button {
+    padding: 3%;
+    width: 50%;
+    border-radius: 25px;
+    font-size: 2em;
+    color: #222;
+    background-color: rgba(221, 221, 221, 0.5);
+    cursor: pointer;
+    transition: opacity .75s ease-in-out, background-color .25s ease-in-out;
+}
+#skip-button:hover {
+    background-color: rgba(221, 221, 221, 1);
 }

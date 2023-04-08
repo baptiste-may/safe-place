@@ -136,14 +136,14 @@ function removeElementFromList(list, ele) {
     for (i = 0; i < list.length; i++) {
         if (list[i] == ele) {
             list.splice(i, 1);
-            updateLoadingScreen();
+            updateLoadingScreen(false);
             return;
         }
     }
 }
 
-function updateLoadingScreen() {
-    if (loading.length == 0) {
+function updateLoadingScreen(force) {
+    if (loading.length == 0 || force) {
         document.getElementById("loadingScreen").style.transition = "ease-in-out 1s";
         document.getElementById("loadingScreen").style.opacity = 0;
         setTimeout(() => {
